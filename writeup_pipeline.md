@@ -75,7 +75,7 @@ The helper function `draw_lines()` was modified/improved during this project. To
 
 After all lines were iterated, for each lane lines side, calculate the median of the upper and lower extrapolated x value array to find the median upper and lower x values, and then draw a single line with these median x values and the corresponding predefined y values (the upper y value is defined as the same used as the upper y value for built the mask image, and the lower y value is bottom y value of the image). 
 
-These lines will represent the land line for the left and right side. The image bellow shows the lines found of the left side (right) and the right side (blue).
+These lines will represent the land line for the left and right side. The image bellow shows the lines previously found of the left side (blue) and the right side (green), drawn with the double of the red line thickness value. 
 
 <img src="test_images_output/processed_full_solidWhiteCurve.jpg" width="480" alt="Combined Image" >
 
